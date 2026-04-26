@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "my-utility-tool"
 version = "0.1.0"
 authors = [
-  { name="Your Name", email="your.email@example.com" },
+  { name="chronos2015", email="tnomura217@gmail.com" },
 ]
 description = "A highly efficient utility tool for Windows-based workflows"
 readme = "README.md"
@@ -18,8 +18,11 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/[ユーザー名]/my-utility-tool"
-Issues = "https://github.com/[ユーザー名]/my-utility-tool/issues"
+Homepage = "https://github.com/chronos2015/my-utility-tool"
+Issues = "https://github.com/chronos2015/my-utility-tool/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
