@@ -18,8 +18,8 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/[ユーザー名]/my-utility-tool"
-Issues = "https://github.com/[ユーザー名]/my-utility-tool/issues"
+Homepage = "https://github.com/chronos2015/my-utility-tool"
+Issues = "https://github.com/chronos2015/my-utility-tool/issues"
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
